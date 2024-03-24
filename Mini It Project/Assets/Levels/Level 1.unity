@@ -600,7 +600,7 @@ PrefabInstance:
     - target: {fileID: 8497701431837234012, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: jumpSound
       value: 
-      objectReference: {fileID: 8300000, guid: 4d84fec2563f20047a5ebd88b4f69916, type: 3}
+      objectReference: {fileID: 8300000, guid: dd30195585179fc42bfa7f5e92abe0c5, type: 3}
     - target: {fileID: 8497701431837234012, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: wallJumpX
       value: 1000
