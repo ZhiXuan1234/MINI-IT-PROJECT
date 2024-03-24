@@ -1133,8 +1133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   player: {fileID: 1987687606}
-  aheadDistance: 5
-  cameraSpeed: 2
+  aheadDistance: 1
+  cameraSpeed: 0.5
 --- !u!4 &1282703759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6444747483540078374, guid: 6c5b27aaa022d4d478fed01e0fbd08b2, type: 3}
