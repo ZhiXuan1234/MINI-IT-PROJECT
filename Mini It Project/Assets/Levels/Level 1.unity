@@ -436,8 +436,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7603686601539198375, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603686601539198375, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: m_GravityScale
-      value: 3
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603686601539198375, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7804907110352454862, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: m_FlipX
@@ -453,11 +461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8497701431837234012, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8497701431837234012, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: jumpPower
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8497701431837234012, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: wallLayer.m_Bits
@@ -536,7 +544,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.5674444
+  orthographic size: 1.9401695
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
