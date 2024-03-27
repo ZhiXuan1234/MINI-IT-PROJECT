@@ -55,6 +55,7 @@ SpriteAtlas:
     - 29e21165cb3ae334d969d4be634eaa9e: -1831035000
     - 29e21165cb3ae334d969d4be634eaa9e: 496192979
     - 29e21165cb3ae334d969d4be634eaa9e: 1779075298
+    - 29e21165cb3ae334d969d4be634eaa9e: 1175509356
     - 29e21165cb3ae334d969d4be634eaa9e: 744047717
     - 29e21165cb3ae334d969d4be634eaa9e: -1695632927
     - 29e21165cb3ae334d969d4be634eaa9e: -705104397
@@ -71,6 +72,7 @@ SpriteAtlas:
     - 29e21165cb3ae334d969d4be634eaa9e: 1026726676
     - 29e21165cb3ae334d969d4be634eaa9e: 1536662971
     - 29e21165cb3ae334d969d4be634eaa9e: -1918592643
+    - 29e21165cb3ae334d969d4be634eaa9e: -2012070117
     - 29e21165cb3ae334d969d4be634eaa9e: 1755732513
     - 29e21165cb3ae334d969d4be634eaa9e: -722657399
     - 29e21165cb3ae334d969d4be634eaa9e: 484153217
@@ -114,6 +116,7 @@ SpriteAtlas:
   - {fileID: -1831035000, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 496192979, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 1779075298, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
+  - {fileID: 1175509356, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 744047717, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: -1695632927, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: -705104397, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
@@ -130,6 +133,7 @@ SpriteAtlas:
   - {fileID: 1026726676, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 1536662971, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: -1918592643, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
+  - {fileID: -2012070117, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 1755732513, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: -722657399, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
   - {fileID: 484153217, guid: 29e21165cb3ae334d969d4be634eaa9e, type: 3}
@@ -172,6 +176,7 @@ SpriteAtlas:
   - Sprites_44
   - Sprites_45
   - Sprites_42
+  - Sprites_58
   - Sprites_43
   - Sprites_40
   - Sprites_41
@@ -188,6 +193,7 @@ SpriteAtlas:
   - Sprites_25
   - Sprites_54
   - Sprites_26
+  - Sprites_57
   - Sprites_27
   - Sprites_56
   - Sprites_20
