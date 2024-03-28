@@ -49,7 +49,7 @@ public class Health : MonoBehaviour
 
                 anim.SetBool("grounded", true);
                 anim.SetTrigger("die");
-
+                
                 dead = true;
                 SoundManager.instance.PlaySound(deathSound);
             }
