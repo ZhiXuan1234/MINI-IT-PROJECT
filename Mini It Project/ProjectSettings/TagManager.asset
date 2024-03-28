@@ -55,6 +55,9 @@ TagManager:
   - name: Ground
     uniqueID: 2851090533
     locked: 0
+  - name: Ground Color
+    uniqueID: 4116892961
+    locked: 0
   - name: Enemy
     uniqueID: 1811496153
     locked: 0
