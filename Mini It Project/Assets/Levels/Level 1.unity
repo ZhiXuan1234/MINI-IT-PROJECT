@@ -636,54 +636,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -617.99994
-      objectReference: {fileID: 0}
-    - target: {fileID: 4126322306296366647, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -618
-      objectReference: {fileID: 0}
-    - target: {fileID: 7045094289931211288, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 8724200379665922217, guid: 6b9e1798593d17447bafc5518ba313ee, type: 3}
       propertyPath: playerHealth
       value: 
@@ -12179,6 +12131,10 @@ PrefabInstance:
     - target: {fileID: 4758624103199668113, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758624103199668113, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4758624103199668113, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: m_TagString

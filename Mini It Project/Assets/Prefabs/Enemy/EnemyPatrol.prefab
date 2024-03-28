@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1680770351343382018}
   - component: {fileID: 1190723388109787930}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: EnemyPatrol
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 33437520364426559}
   - component: {fileID: 3820865184230117530}
   - component: {fileID: 2209166802556121927}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Enemy (Bunny)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7527285472150455318}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: LeftEdge
   m_TagString: Untagged
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6433585767762805536}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RightEdge
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
