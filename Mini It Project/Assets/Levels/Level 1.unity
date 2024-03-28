@@ -21901,8 +21901,8 @@ MonoBehaviour:
   iFramesDuration: 1
   numberOfFlashes: 1
   components: []
-  deathSound: {fileID: 0}
-  hurtSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 8ee7b31e1171b9c4fa9abdcdb3b2841d, type: 3}
+  hurtSound: {fileID: 8300000, guid: 0597cd82255cac64b9433c15c024c467, type: 3}
 --- !u!1 &1989317906
 GameObject:
   m_ObjectHideFlags: 0
