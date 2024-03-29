@@ -12,11 +12,13 @@ GameObject:
   - component: {fileID: 7804907110352454862}
   - component: {fileID: 6944613364172651760}
   - component: {fileID: 7603686601539198375}
-  - component: {fileID: 8497701431837234012}
+  - component: {fileID: 6354299221300348635}
+  - component: {fileID: 523335266645934417}
+  - component: {fileID: 5284606816804271322}
   - component: {fileID: 1560795399970381686}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 4758624103199668113}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0.1, y: -1.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -160,7 +162,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &8497701431837234012
+--- !u!114 &6354299221300348635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,6 +187,40 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   jumpSound: {fileID: 8300000, guid: dd30195585179fc42bfa7f5e92abe0c5, type: 3}
+--- !u!114 &523335266645934417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758624103199668113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b119a5df11330af4e9158a17142fdbca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 2
+  iFramesDuration: 1
+  numberOfFlashes: 1
+  components:
+  - {fileID: 0}
+  - {fileID: 6354299221300348635}
+  - {fileID: 523335266645934417}
+  deathSound: {fileID: 8300000, guid: 8ee7b31e1171b9c4fa9abdcdb3b2841d, type: 3}
+  hurtSound: {fileID: 8300000, guid: 0597cd82255cac64b9433c15c024c467, type: 3}
+--- !u!114 &5284606816804271322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758624103199668113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb46c91733b5224d8edbb5a17c7d0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoint: {fileID: 8300000, guid: 91067e0fef5ef3a49bb1f86cfb9e41e9, type: 3}
 --- !u!95 &1560795399970381686
 Animator:
   serializedVersion: 5
