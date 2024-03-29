@@ -5,10 +5,12 @@ public class PlayerRespawn : MonoBehaviour
     [SerializeField] private AudioClip checkpoint;
     private Transform currentCheckpoint;
     private Health playerHealth;
+    private UIManager uiManager;
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
+        uiManager = FindObjectOfType<UIManager>(); //Careful for duplicate (Game Over TUT 3.24)
     }
 
     public void CheckRespawn()
@@ -17,7 +19,7 @@ public class PlayerRespawn : MonoBehaviour
         if (currentCheckpoint == null)
         {
             //Show game over screen
-
+            uiManager.GameOver();
             return; //Dont execute this function
         
         }
