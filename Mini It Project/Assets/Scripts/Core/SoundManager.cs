@@ -8,7 +8,8 @@ public class SoundManager : MonoBehaviour
     private void Awake()
     {
        instance = this;
-        source = GetComponent<AudioSource>();
+       source = GetComponent<AudioSource>();
+
     }
 
     public void PlaySound(AudioClip _sound)
