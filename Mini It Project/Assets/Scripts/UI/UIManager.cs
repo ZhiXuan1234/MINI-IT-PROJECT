@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             //If pause screen already active unpause and viceversa
-            
+            PauseGame(!pauseScreen.activeInHierarchy);
         }
     }
 
@@ -54,5 +54,28 @@ public class UIManager : MonoBehaviour
 #endif
     }
     #endregion
+    
+    #region Pause
+    public void PauseGame(bool status)
+    {
+        //If status == true pause | if status == false unpause
+        pauseScreen.SetActive(status);
 
+        //When pause status is true change timescale to 0 (time stops)
+        //when it's false change it back to 1 (time goes by normally)
+        if (status)
+            Time.timeScale = 0;
+        else
+            Time.timeScale = 1;
+    }
+    public void SoundVolume()
+    {
+        //SoundManager.instance.ChangeSoundVolume(0.2f);
+    }
+    public void MusicVolume()
+    {
+        //SoundManager.instance.ChangeMusicVolume(0.2f);
+    }
+    #endregion
 }
+
