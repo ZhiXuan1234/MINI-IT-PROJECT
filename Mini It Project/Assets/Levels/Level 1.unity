@@ -22230,6 +22230,14 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
+      propertyPath: iFramesDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
+      propertyPath: numberOfFlashes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: components.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -39571,8 +39579,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 2
-  iFramesDuration: 0
-  numberOfFlashes: 0
+  iFramesDuration: 1
+  numberOfFlashes: 1
   components:
   - {fileID: 1987687620}
   - {fileID: 1987687622}
