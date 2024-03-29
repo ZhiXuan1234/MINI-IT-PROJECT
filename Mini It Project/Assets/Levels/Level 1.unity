@@ -22230,14 +22230,6 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
-      propertyPath: iFramesDuration
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
-      propertyPath: numberOfFlashes
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3327511176942309969, guid: 805889c73cc2ceb43b7a61d087c40a4a, type: 3}
       propertyPath: components.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -39449,13 +39441,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 2
-  iFramesDuration: 1
-  numberOfFlashes: 1
+  iFramesDuration: 0
+  numberOfFlashes: 0
   components:
   - {fileID: 1987687620}
   - {fileID: 1987687622}
-  deathSound: {fileID: 0}
-  hurtSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 8ee7b31e1171b9c4fa9abdcdb3b2841d, type: 3}
+  hurtSound: {fileID: 8300000, guid: 0597cd82255cac64b9433c15c024c467, type: 3}
 --- !u!1 &1989317906
 GameObject:
   m_ObjectHideFlags: 0
