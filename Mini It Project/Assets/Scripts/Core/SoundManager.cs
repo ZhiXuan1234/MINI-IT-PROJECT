@@ -12,6 +12,10 @@ public class SoundManager : MonoBehaviour
        source = GetComponent<AudioSource>();
        musicSource = transform.GetChild(0).GetComponent<AudioSource>();
 
+
+        //Assign initial volumes
+        ChangeMusicVolume(0);
+        ChangeSoundVolume(0);
     }
 
     public void PlaySound(AudioClip _sound)
@@ -22,12 +26,21 @@ public class SoundManager : MonoBehaviour
 
     public void ChangeSoundVolume(float _change)
     {
-        //Get Base Volume
-        float baseVolume = 1;
-        
+       ChangeSourceVolume(1, "soundVolume", _change, source);
+    
+    }
+
+    public void ChangeMusicVolume(float _change)
+    {
+        ChangeSourceVolume(0.3f, "musicVolume", _change, musicSource);
+
+    }
+
+    private void ChangeSourceVolume(float baseVolume, string volumeName, float change, AudioSource source)
+    {
         //Get initial value of volume and change it
-        float currentVolume = PlayerPrefs.GetFloat("soundVolume"); //Load last saved sound volume from player prefs 
-        currentVolume += _change;
+        float currentVolume = PlayerPrefs.GetFloat(volumeName, 1);
+        currentVolume += change;
 
         //Check if we reached the max or min value
         if (currentVolume > 1)
@@ -40,30 +53,8 @@ public class SoundManager : MonoBehaviour
         source.volume = finalVolume;
 
         //Save final value to player prefs
-        PlayerPrefs.SetFloat("soundVolume", currentVolume);
+        PlayerPrefs.SetFloat(volumeName, currentVolume);
+    }
+
     
-    }
-
-    public void ChangeMusicVolume(float _change)
-    {
-        //Get Base Volume
-        float baseVolume = 0.3f;
-
-        //Get initial value of volume and change it
-        float currentVolume = PlayerPrefs.GetFloat("musicVolume"); //Load last saved sound volume from player prefs 
-        currentVolume += _change;
-
-        //Check if we reached the max or min value
-        if (currentVolume > 1)
-            currentVolume = 0;
-        else if (currentVolume < 0)
-            currentVolume = 1;
-
-        //Assign final value
-        float finalVolume = currentVolume * baseVolume;
-        musicSource.volume = finalVolume;
-
-        //Save final value to player prefs
-        PlayerPrefs.SetFloat("musicVolume", currentVolume);
-    }
 }
