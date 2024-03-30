@@ -42,6 +42,7 @@ public class UIManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 
     //Quit game/exit play mode if in Editor
@@ -76,6 +77,7 @@ public class UIManager : MonoBehaviour
     {
         SoundManager.instance.ChangeMusicVolume(0.2f);
     }
+
     #endregion
 }
 
