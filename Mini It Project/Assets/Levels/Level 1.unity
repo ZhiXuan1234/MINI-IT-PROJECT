@@ -43375,6 +43375,14 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1987687622}
+    - target: {fileID: 6901820477343060889, guid: 63df935cbe697c94690325fea58a4ade, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.921
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901820477343060889, guid: 63df935cbe697c94690325fea58a4ade, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.207
+      objectReference: {fileID: 0}
     - target: {fileID: 7051185485257491877, guid: 63df935cbe697c94690325fea58a4ade, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.040487595
