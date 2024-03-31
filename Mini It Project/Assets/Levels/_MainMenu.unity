@@ -759,10 +759,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8240300694472070784, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6da0d0a9783f9bd48b40bb0421773e79, type: 3}
+    m_RemovedComponents:
+    - {fileID: 7419714446038223155, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5212591195955597580, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1772783648}
   m_SourcePrefab: {fileID: 100100000, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
 --- !u!1 &1564741581
 GameObject:
@@ -972,6 +980,32 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3521824135916391732, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
   m_PrefabInstance: {fileID: 1519894994}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1772783643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5212591195955597580, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
+  m_PrefabInstance: {fileID: 1519894994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1772783648
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772783643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db3ecf489c288ea42a7a6357163e0455, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1853775092
 GameObject:
   m_ObjectHideFlags: 0
