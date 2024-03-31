@@ -324,7 +324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3521824135916391732, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -15.751
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 3521824135916391732, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -410,6 +410,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8240300694472070784, guid: ecc28732e721cd147ae4a50fc61ea101, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 97e9f314bd728d1489cc0bf192920b34, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1727,6 +1731,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2025942693}
     m_Modifications:
+    - target: {fileID: 1418709544843266649, guid: 728e82a087b024840b84acdfa9b42d6f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a1e8d4de22a7a44ba2c5f94e9bf0da5, type: 3}
     - target: {fileID: 1987235326347769592, guid: 728e82a087b024840b84acdfa9b42d6f, type: 3}
       propertyPath: m_Name
       value: BackgroundSFX
@@ -1869,6 +1877,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8467465473000562501, guid: a970d09b5377a1b4eb91c0affbea4306, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467465473000562501, guid: a970d09b5377a1b4eb91c0affbea4306, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2025942694}
@@ -1879,6 +1891,14 @@ PrefabInstance:
     - target: {fileID: 8467465473000562501, guid: a970d09b5377a1b4eb91c0affbea4306, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467465473000562501, guid: a970d09b5377a1b4eb91c0affbea4306, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467465473000562501, guid: a970d09b5377a1b4eb91c0affbea4306, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
