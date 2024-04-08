@@ -1579,6 +1579,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Dungeon Tile Set_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 76
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e5ef624a39b4f4b878ed29e677d148
+      internalID: -135724847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1658,6 +1679,7 @@ TextureImporter:
       Dungeon Tile Set_68: -951860144
       Dungeon Tile Set_69: -662786062
       Dungeon Tile Set_7: -2102448602
+      Dungeon Tile Set_70: -135724847
       Dungeon Tile Set_8: -1021306627
       Dungeon Tile Set_9: 980601041
   mipmapLimitGroupName: 
