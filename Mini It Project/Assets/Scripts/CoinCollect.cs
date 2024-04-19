@@ -9,6 +9,7 @@ public class CoinCollect : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Collectable"))
         {
+            CoinSoundManager.instance.coinssource.PlayOneShot(CoinSoundManager.instance.CoinSound);
             Destroy(other.gameObject);
             cm.coinCount++;
         }

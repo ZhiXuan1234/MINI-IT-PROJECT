@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Checkpoint
   - Collectable
+  - NextLevel
   layers:
   - Default
   - TransparentFX
