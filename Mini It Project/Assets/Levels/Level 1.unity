@@ -13002,7 +13002,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1443876763
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1747461014, guid: 2317b165108332c43a22def0cb8ee59a, type: 3}
   m_Color: {r: 0.971035, g: 0.9264151, b: 1, a: 1}
   m_FlipX: 0
@@ -15849,8 +15849,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 989416675
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: db640954d03c3f14ea98aa660acb719e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15872,7 +15872,7 @@ Transform:
   m_GameObject: {fileID: 748174044}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.404, y: 6.075, z: 0}
+  m_LocalPosition: {x: 1.404, y: 5.984, z: 0}
   m_LocalScale: {x: 0.08312959, y: 0.08096822, z: 0.08312959}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17028,7 +17028,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1443876763
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1697853385, guid: 9912f8be19ca9254b89462b036a0e0b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17303,9 +17303,9 @@ GameObject:
   - component: {fileID: 813442733}
   - component: {fileID: 813442732}
   - component: {fileID: 813442731}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: door
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17393,8 +17393,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1443876763
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a0cea91ccf38731478812ec444632d4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17416,7 +17416,7 @@ Transform:
   m_GameObject: {fileID: 813442730}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.404, y: 6.075, z: 0}
+  m_LocalPosition: {x: 1.404, y: 5.959, z: 0}
   m_LocalScale: {x: 0.08312959, y: 0.08096822, z: 0.08312959}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45087,6 +45087,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4262780930133295050, guid: 30d7666416e00de4d97369e257870796, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 813442730}
+    - target: {fileID: 4262780930133295050, guid: 30d7666416e00de4d97369e257870796, type: 3}
       propertyPath: coinText
       value: 
       objectReference: {fileID: 644389747}
@@ -45436,11 +45440,11 @@ PrefabInstance:
       objectReference: {fileID: 280541277}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.631
+      value: 0.063
       objectReference: {fileID: 0}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.131
+      value: -0.977
       objectReference: {fileID: 0}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.z
