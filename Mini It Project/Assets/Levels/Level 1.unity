@@ -5453,6 +5453,7 @@ GameObject:
   - component: {fileID: 278834768}
   - component: {fileID: 278834770}
   - component: {fileID: 278834769}
+  - component: {fileID: 278834771}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -5506,7 +5507,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.0040341616, y: -0.2888242}
   m_SpriteTilingProperty:
@@ -5573,6 +5574,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &278834771
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278834767}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!114 &280541277 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4262780930133295050, guid: 30d7666416e00de4d97369e257870796, type: 3}
@@ -7175,7 +7195,7 @@ MonoBehaviour:
   platform: {fileID: 550442724}
   startpoint: {fileID: 1625604603}
   endpoint: {fileID: 292198616}
-  speed: 1
+  speed: 0.5
 --- !u!1 &340333761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7565,7 +7585,7 @@ MonoBehaviour:
   platform: {fileID: 1058572942}
   startpoint: {fileID: 464782295}
   endpoint: {fileID: 940770794}
-  speed: 1
+  speed: 0.5
 --- !u!1 &365052899
 GameObject:
   m_ObjectHideFlags: 0
@@ -9526,6 +9546,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &479615876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1395636184975177052, guid: 30d7666416e00de4d97369e257870796, type: 3}
+  m_PrefabInstance: {fileID: 565819003229732864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &482643878
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,6 +9871,7 @@ GameObject:
   - component: {fileID: 493848827}
   - component: {fileID: 493848829}
   - component: {fileID: 493848828}
+  - component: {fileID: 493848830}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -9898,7 +9924,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.8920768}
   m_SpriteTilingProperty:
@@ -9965,6 +9991,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &493848830
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493848826}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &499905496
 GameObject:
   m_ObjectHideFlags: 0
@@ -10670,6 +10715,7 @@ GameObject:
   - component: {fileID: 550442724}
   - component: {fileID: 550442726}
   - component: {fileID: 550442725}
+  - component: {fileID: 550442727}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -10722,7 +10768,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.8920768}
   m_SpriteTilingProperty:
@@ -10789,6 +10835,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &550442727
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550442723}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &552747304
 GameObject:
   m_ObjectHideFlags: 0
@@ -18993,7 +19058,7 @@ MonoBehaviour:
   platform: {fileID: 493848827}
   startpoint: {fileID: 1834957278}
   endpoint: {fileID: 1177850263}
-  speed: 1
+  speed: 0.5
 --- !u!1 &901421907
 GameObject:
   m_ObjectHideFlags: 0
@@ -21936,7 +22001,7 @@ MonoBehaviour:
   platform: {fileID: 1075323321}
   startpoint: {fileID: 630263700}
   endpoint: {fileID: 1267809756}
-  speed: 1
+  speed: 0.5
 --- !u!1 &1044831177
 GameObject:
   m_ObjectHideFlags: 0
@@ -22326,7 +22391,7 @@ MonoBehaviour:
   platform: {fileID: 1400046004}
   startpoint: {fileID: 1382547367}
   endpoint: {fileID: 2141686359}
-  speed: 1
+  speed: 0.5
 --- !u!1 &1053082046
 GameObject:
   m_ObjectHideFlags: 0
@@ -22506,6 +22571,7 @@ GameObject:
   - component: {fileID: 1058572942}
   - component: {fileID: 1058572944}
   - component: {fileID: 1058572943}
+  - component: {fileID: 1058572945}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -22558,7 +22624,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.057967722, y: -0.29088163}
   m_SpriteTilingProperty:
@@ -22625,6 +22691,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1058572945
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058572941}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1059415990
 GameObject:
   m_ObjectHideFlags: 0
@@ -23227,6 +23312,7 @@ GameObject:
   - component: {fileID: 1075323321}
   - component: {fileID: 1075323323}
   - component: {fileID: 1075323322}
+  - component: {fileID: 1075323324}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -23279,7 +23365,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.057967722, y: -0.21847394}
   m_SpriteTilingProperty:
@@ -23346,6 +23432,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1075323324
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075323320}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1075742035
 GameObject:
   m_ObjectHideFlags: 0
@@ -25335,7 +25440,7 @@ MonoBehaviour:
   platform: {fileID: 1328020721}
   startpoint: {fileID: 386373886}
   endpoint: {fileID: 1370126372}
-  speed: 1
+  speed: 0.5
 --- !u!1 &1161328939
 GameObject:
   m_ObjectHideFlags: 0
@@ -27224,7 +27329,7 @@ MonoBehaviour:
   platform: {fileID: 278834768}
   startpoint: {fileID: 1132838272}
   endpoint: {fileID: 259128023}
-  speed: 1
+  speed: 0.5
 --- !u!1 &1282055529
 GameObject:
   m_ObjectHideFlags: 0
@@ -28616,6 +28721,7 @@ GameObject:
   - component: {fileID: 1328020721}
   - component: {fileID: 1328020723}
   - component: {fileID: 1328020722}
+  - component: {fileID: 1328020724}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -28668,7 +28774,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.8920768}
   m_SpriteTilingProperty:
@@ -28735,6 +28841,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1328020724
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328020720}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1329916850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30213,6 +30338,7 @@ GameObject:
   - component: {fileID: 1400046004}
   - component: {fileID: 1400046006}
   - component: {fileID: 1400046005}
+  - component: {fileID: 1400046008}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -30266,7 +30392,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.41679364}
   m_SpriteTilingProperty:
@@ -30333,6 +30459,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1400046008
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400046003}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1402038602
 GameObject:
   m_ObjectHideFlags: 0
@@ -30867,6 +31012,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1421510275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+  m_PrefabInstance: {fileID: 1643538959}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1427437719
 GameObject:
   m_ObjectHideFlags: 0
@@ -31253,7 +31403,7 @@ MonoBehaviour:
   platform: {fileID: 1809443392}
   startpoint: {fileID: 1294845241}
   endpoint: {fileID: 2110942219}
-  speed: 1
+  speed: 0.5
 --- !u!1 &1454988061
 GameObject:
   m_ObjectHideFlags: 0
@@ -35692,6 +35842,115 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1643538959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 479615876}
+    m_Modifications:
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.155743
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -61.75786
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.848425
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866836787693397107, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570258336504449955, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_Name
+      value: Scene Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975918296392870470, guid: 9e682308c117db4459bc6116fc779501, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e682308c117db4459bc6116fc779501, type: 3}
 --- !u!1 &1645530986
 GameObject:
   m_ObjectHideFlags: 0
@@ -38122,6 +38381,7 @@ GameObject:
   - component: {fileID: 1809443392}
   - component: {fileID: 1809443394}
   - component: {fileID: 1809443393}
+  - component: {fileID: 1809443395}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -38174,7 +38434,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.057967722, y: -0.28605455}
   m_SpriteTilingProperty:
@@ -38241,6 +38501,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1809443395
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809443391}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1811706832
 GameObject:
   m_ObjectHideFlags: 0
@@ -39571,6 +39850,7 @@ GameObject:
   - component: {fileID: 1905544084}
   - component: {fileID: 1905544086}
   - component: {fileID: 1905544085}
+  - component: {fileID: 1905544087}
   m_Layer: 8
   m_Name: cloud2_5
   m_TagString: Ground
@@ -39623,7 +39903,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -0.019592285, y: -0.88553715}
   m_SpriteTilingProperty:
@@ -39690,6 +39970,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1905544087
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905544083}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1906791888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6551221668756274131, guid: 12beb4d60ac624a41b76fce48839d823, type: 3}
@@ -43350,7 +43649,7 @@ MonoBehaviour:
   platform: {fileID: 1905544084}
   startpoint: {fileID: 621622970}
   endpoint: {fileID: 1174798518}
-  speed: 1
+  speed: 0.5
 --- !u!4 &2045658812 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6444747483540078374, guid: 6c5b27aaa022d4d478fed01e0fbd08b2, type: 3}
@@ -45096,7 +45395,10 @@ PrefabInstance:
       objectReference: {fileID: 644389747}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1395636184975177052, guid: 30d7666416e00de4d97369e257870796, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421510275}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d7666416e00de4d97369e257870796, type: 3}
 --- !u!212 &627774986118239317
@@ -45440,11 +45742,11 @@ PrefabInstance:
       objectReference: {fileID: 280541277}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.063
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.977
+      value: -0.999
       objectReference: {fileID: 0}
     - target: {fileID: 5946638130978404319, guid: 0cda455e2b9fefc4894c714793fa9e2a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -45735,11 +46037,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatformController
       objectReference: {fileID: 0}
+    - target: {fileID: 4704105320627627844, guid: 9a645613d0d9b3e48b140aef41bfb879, type: 3}
+      propertyPath: speed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6955936883367592153, guid: 9a645613d0d9b3e48b140aef41bfb879, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1535159517888413265, guid: 9a645613d0d9b3e48b140aef41bfb879, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8970431919665648567}
   m_SourcePrefab: {fileID: 100100000, guid: 9a645613d0d9b3e48b140aef41bfb879, type: 3}
+--- !u!1 &8970431919665648566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1535159517888413265, guid: 9a645613d0d9b3e48b140aef41bfb879, type: 3}
+  m_PrefabInstance: {fileID: 8970431919665648565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!251 &8970431919665648567
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8970431919665648566}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
