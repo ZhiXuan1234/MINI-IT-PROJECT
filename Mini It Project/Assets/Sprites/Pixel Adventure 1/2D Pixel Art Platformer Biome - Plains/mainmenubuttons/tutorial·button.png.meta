@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d669c8bcfe4df74d8c527864feedf70
+guid: f56a9f7156108964f9d6a0502c71d357
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: xbutton_0
+      name: "tutorial\xB7button_0"
       rect:
         serializedVersion: 2
-        x: 75
-        y: 335
-        width: 480
-        height: 540
+        x: 315
+        y: 743
+        width: 1418
+        height: 1020
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50dac739679dab94eb5c94152263abb6
-      internalID: 426291283
+      spriteID: 6bf4791269a11e44589d2e5028339ad0
+      internalID: -1245982293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xbutton_1
+      name: "tutorial\xB7button_1"
       rect:
         serializedVersion: 2
-        x: 725
-        y: 395
-        width: 480
-        height: 480
+        x: 105
+        y: 143
+        width: 390
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d75079b9e83c0d409f30d71a5ce0415
-      internalID: -83389089
+      spriteID: fe711e3e78782744ba643bf94a8def94
+      internalID: 725196631
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      xbutton_0: 426291283
-      xbutton_1: -83389089
+      "tutorial\xB7button_0": -1245982293
+      "tutorial\xB7button_1": 725196631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

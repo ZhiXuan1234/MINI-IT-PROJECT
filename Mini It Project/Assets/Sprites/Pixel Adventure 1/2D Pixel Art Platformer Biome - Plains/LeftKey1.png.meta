@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LeftKey1_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 626
+        width: 262
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468b8f72fe5bdaf4382c935c35b99d73
+      internalID: -1425941537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftKey1_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 70
+        width: 480
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdc0b5c18ae0cd41a70759308c42fd4
+      internalID: 383097998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +161,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LeftKey1_0: -1425941537
+      LeftKey1_1: -1361949532
+      LeftKey1_2: -855609000
+      LeftKey1_3: 838543748
+      LeftKey1_4: -1318496860
+      LeftKey1_5: 1472675945
+      LeftKey1_6: 550651897
+      LeftKey1_7: 1702112182
+      LeftKey1_8: 383097998
+      LeftKey1_9: -1714406257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

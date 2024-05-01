@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d669c8bcfe4df74d8c527864feedf70
+guid: 3ec830afe147e024ab3b7b0b422200f3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: xbutton_0
+      name: wallclimbingtutorial_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 335
-        width: 480
-        height: 540
+        x: 481
+        y: 72
+        width: 1120
+        height: 501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50dac739679dab94eb5c94152263abb6
-      internalID: 426291283
+      spriteID: 6310d7af073cce440afec61a3227b603
+      internalID: -1870507267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xbutton_1
+      name: wallclimbingtutorial_1
       rect:
         serializedVersion: 2
-        x: 725
-        y: 395
-        width: 480
-        height: 480
+        x: 1644
+        y: 132
+        width: 316
+        height: 1807
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d75079b9e83c0d409f30d71a5ce0415
-      internalID: -83389089
+      spriteID: a122e9cc9f90321499108fdcb04045c7
+      internalID: 380287797
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      xbutton_0: 426291283
-      xbutton_1: -83389089
+      wallclimbingtutorial_0: -1870507267
+      wallclimbingtutorial_1: 380287797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
